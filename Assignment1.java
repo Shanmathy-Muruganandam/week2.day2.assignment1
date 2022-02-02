@@ -43,7 +43,7 @@ public class Assignment1 {
 		WebElement year = driver.findElement(By.xpath("//select[@id ='year']"));
 		Select year1 = new Select(year);
 		year1.selectByValue("1995");
-		driver.findElement(By.xpath("(//input[@name = 'sex'])[2])").click();
+		driver.findElement(By.xpath("(//input[@name = 'sex'])[2])")).click();
 		
 	}
 
